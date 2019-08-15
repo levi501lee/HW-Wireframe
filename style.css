@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
 body {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     color: #777;
@@ -5,8 +10,12 @@ body {
     width: 960px;
     font-size: 18px;
 }
-Header, Nav, Section, Aside, Footer {
+header, Nav, Section, Aside, Footer {
     background: #ebebeb;
+}
+header {
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 Article {
@@ -20,4 +29,12 @@ h1, p {
 section {
     width: 495px;
 
+}
+footer {
+    clear: both;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+  clear: both			
 }
