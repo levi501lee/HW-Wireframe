@@ -9,11 +9,12 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    display: inline-block;
 
 }
 header, nav, Footer {
     background: #ebebeb;
-        align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+        align-content: flex-start;
 }
 section, aside  {
     background: #ebebeb;
@@ -34,6 +35,8 @@ Article {
     background: #777;
     color: #ebebeb;
     height: 250px;
+    position: relative;
+    bottom: -40px;
 }
 h1, p {
     color: #777;
@@ -47,22 +50,20 @@ section {
     margin-bottom: 20px;
     width: 495px;
     height: 350px;
-    display: inline-block;
     float: left;
 }
 
 aside {
     padding: 20px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 440px;
     height: 350px;
-    display: inline-block;
     float: right;
 }
 footer {
-    clear: both;
+  clear: both;
   padding: 20px;
   margin-bottom: 20px;
-  color: #333;
+  color: #777;
   background: #ccc;			
 }
